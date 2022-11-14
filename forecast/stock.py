@@ -58,7 +58,7 @@ class Stock:
                 x=self.data.date,
                 y=self.data['Close'],
                 mode="lines",
-                name=self.symbol,
+                name=self.symbol,  
             )
         )
         return fig
